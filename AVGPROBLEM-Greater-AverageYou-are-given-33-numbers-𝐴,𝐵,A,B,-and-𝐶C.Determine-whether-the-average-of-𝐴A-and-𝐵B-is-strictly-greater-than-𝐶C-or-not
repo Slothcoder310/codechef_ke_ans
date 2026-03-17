@@ -1,0 +1,11 @@
+# cook your dish here
+
+test: int = int(input())
+
+for _ in range(test):
+    first, second, control = map(int, input().split())
+    
+    if ((first + second) / 2 ) > control:
+        print("YES")
+    else:
+        print("NO")
