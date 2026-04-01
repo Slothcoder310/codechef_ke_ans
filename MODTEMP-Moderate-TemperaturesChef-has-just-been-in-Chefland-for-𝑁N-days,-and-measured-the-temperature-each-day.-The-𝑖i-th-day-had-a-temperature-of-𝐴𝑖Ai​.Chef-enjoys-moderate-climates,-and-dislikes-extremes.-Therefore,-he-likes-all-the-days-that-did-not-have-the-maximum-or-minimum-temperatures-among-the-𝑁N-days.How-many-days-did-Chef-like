@@ -9,7 +9,7 @@ for _ in range(test):
     least, highest = min(lst), max(lst)
     count = 0
     
-    for i in set(lst):
+    for i in lst:
         if i != least and i != highest:
             count += 1
             
