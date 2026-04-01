@@ -1,0 +1,7 @@
+# cook your dish here
+sets = int(input())
+
+if sets > 7:
+    print(7)
+else:
+    print(sets)
