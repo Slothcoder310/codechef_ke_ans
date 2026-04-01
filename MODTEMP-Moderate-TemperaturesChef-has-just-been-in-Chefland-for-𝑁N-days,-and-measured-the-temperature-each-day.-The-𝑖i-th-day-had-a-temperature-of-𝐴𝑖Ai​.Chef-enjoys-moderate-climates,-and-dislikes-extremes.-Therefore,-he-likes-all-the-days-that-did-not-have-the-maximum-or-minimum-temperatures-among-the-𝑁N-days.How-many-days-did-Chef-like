@@ -1,0 +1,119 @@
+<h2><a href="https://www.codechef.com/START232D/problems/MODTEMP">Moderate Temperatures
+
+Chef has just been in Chefland for 
+𝑁
+N days, and measured the temperature each day. The 
+𝑖
+i-th day had a temperature of 
+𝐴
+𝑖
+A
+i
+	​
+
+.
+
+Chef enjoys moderate climates, and dislikes extremes. Therefore, he likes all the days that did not have the maximum or minimum temperatures among the 
+𝑁
+N days.
+
+How many days did Chef like?
+
+Input Format
+The first line of input will contain a single integer 
+𝑇
+T, denoting the number of test cases.
+Each test case consists of multiple lines of input.
+The first line contains a single integer 
+𝑁
+N - the number of days.
+The second line contains 
+𝑁
+N integers - 
+𝐴
+1
+,
+𝐴
+2
+,
+…
+,
+𝐴
+𝑁
+A
+1
+	​
+
+,A
+2
+	​
+
+,…,A
+N
+	​
+
+.
+Output Format
+
+For each test case, output the number of days Chef liked.
+
+Constraints
+1
+≤
+𝑇
+≤
+100
+1≤T≤100
+1
+≤
+𝑁
+≤
+100
+1≤N≤100
+1
+≤
+𝐴
+𝑖
+≤
+100
+1≤A
+i
+	​
+
+≤100
+Sample 1:
+Input
+Output
+4
+5
+1 2 3 4 5
+4
+1 1 2 2
+5
+9 9 1 3 1
+3
+5 5 5
+
+3
+0
+1
+0
+Explanation:
+
+Test Case 1 : The maximum temperature is 
+5
+5, and the minimum is 
+1
+1. Hence, Chef likes days 
+2
+2, 
+3
+3 and 
+4
+4; as those do not have the maximum or minimum.
+
+Test Case 2 : The maximum is 
+2
+2, and the minimum is 
+1
+1; so Chef does not like any day.</a></h2><h4>Difficulty: </h4>
